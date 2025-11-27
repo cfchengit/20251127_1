@@ -1,3 +1,15 @@
+/* Google Font and Navigation Style Overrides */
+#siteNav {
+    background-color: yellow !important;
+    font-family: 'Zen Maru Gothic', sans-serif !important;
+}
+#siteNav > ul > li > a {
+    font-size: 25px !important;
+}
+#siteNav ul ul a {
+    font-size: 20px !important;
+}
+
 html,body{min-height:100%}
 html{background:#FFF url(_intef_bg.png) repeat 0 -2px}
 body{padding:0;
